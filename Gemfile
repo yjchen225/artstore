@@ -33,6 +33,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # gem 'capistrano-rails', group: :development
 
 gem "devise"
+
 gem "bootstrap-sass"
 
 gem "simple_form"
@@ -42,6 +43,8 @@ gem "carrierwave"
 gem "mini_magick"
 
 gem "font-awesome-rails"
+
+gem "aasm"
 
 group :production do
    gem "pg"
